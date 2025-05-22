@@ -34,7 +34,7 @@ namespace MathUtilsTestNUnit
         [Test]
         public void LongTest()
         {
-            for (var i = 0; i < 250; i++)
+            for (var i = 0; i < 600; i++)
             {
                 Console.WriteLine($"LongTest {i}");
                 System.Threading.Thread.Sleep(1000);
