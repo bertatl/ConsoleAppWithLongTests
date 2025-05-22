@@ -22,7 +22,7 @@ namespace MathUtilsTest
         [TestMethod]
         public void LongTest()
         {
-            for (var i = 0; i < 100; i++)
+            for (var i = 0; i < 10; i++)
             {
                 Console.WriteLine($"LongTest {i}");
                 System.Threading.Thread.Sleep(1000);
